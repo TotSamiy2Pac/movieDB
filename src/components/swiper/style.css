@@ -1,0 +1,46 @@
+.slide {
+    max-width: 1240px;
+}
+
+.box-slide img {
+    width: 100%;
+    object-fit: contain;
+    transition: 1s;
+    opacity: 0.4;
+}
+
+.box-slide {
+    position: relative;
+    background-color: black;
+    overflow: hidden;
+}
+
+.box-slide:hover .description-slide{
+    left: 60px;
+    bottom: 50px;
+}
+
+.description-slide {
+    transition: 1s;
+    bottom: -500px;
+    /*bottom: 0;*/
+    left: 60px;
+    font-family: 'Aleo', serif;
+    max-width: 800px;
+    position: absolute;
+    font-size: 30px;
+    color: white;
+}
+
+.title-slide {
+    z-index: 1;
+    position: absolute;
+    left: 60px;
+    top: 60px;
+    font-size: 24px;
+    font-family: 'Aleo', serif;
+    font-weight: bold;
+}
+p{
+    margin: 0;
+}

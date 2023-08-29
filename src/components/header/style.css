@@ -1,0 +1,47 @@
+
+header {
+    background-color: #2A3759;
+    color: white;
+}
+
+.header-box {
+    padding: 20px 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    color: white;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+.search-panel {
+    display: flex;
+}
+
+.btn-search {
+    border: 2px solid white;
+    border-radius: 0 5px 5px 0 ;
+    color: white;
+}
+input {
+    border: 2px solid white;
+    border-radius: 5px 0 0 5px ;
+}
+
+header h2 {
+    font-family :'Teko', sans-serif;
+    margin-bottom: 0;
+}
+
+input:focus {
+    outline: none;
+}
+
+
+.nav-link {
+    display: flex;
+    gap: 40px;
+}

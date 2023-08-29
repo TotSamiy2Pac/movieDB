@@ -1,0 +1,21 @@
+.box-genre {
+    /*width: 400px;*/
+    height: 200px;
+}
+
+h2 {
+    color: white;
+}
+.genr {
+    padding: 20px 0;
+}
+
+.box-genre img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.box-genre img:hover {
+    transform: scale(1.2);
+}
